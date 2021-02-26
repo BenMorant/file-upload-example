@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Téléversement de fichiers</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Téléversement de fichiers</h1>
+      <form id="form">
+        <div class="input-group">
+          <label for="name">Ton nom</label>
+          <input name="name" id="name" placeholder="Indique ton nom" />
+        </div>
+        <div class="input-group">
+          <label for="files">Selectionne des fichiers</label>
+          <input id="files" type="file" multiple />
+        </div>
+        <button class="submit-btn" type="submit">Téleverser</button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
